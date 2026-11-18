@@ -22,6 +22,15 @@ On top of all of this, other key full stack developer skills that would enhance 
 Of course, strong problem-solving abilities, debugging skills, and a willingness to continuously learn new technologies are also crucial for this role, like they are for any software development job.
 
 In the end, this particular blend of skills allows developers to build full-featured web applications from start to finish.
-# Full-stack Roadmap
-https://roadmap.sh/full-stack
+# Full-stack Roadmap :
+• HTML
+• CSS
+• JavaScript
+• Git & GitHub
+• React
+• Node.js
+• Express
+• MongoDB
+• Authentication
+• Deployment
 
