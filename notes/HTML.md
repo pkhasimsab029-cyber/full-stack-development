@@ -36,8 +36,8 @@ Hyper Text Markup Language
 # Heading Tag
 -> Used to display headings in HTML.
 h1 (most important)
-h3
 h2
+h3
 h4
 h5
 h6 (least important)
