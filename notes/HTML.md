@@ -75,3 +75,123 @@ h6 (least important)
         is a sample
         text.
     </pre>
+# Page Layout Techniques
+-> using Semantic tags for layout.
+-> using the Right Tags
+<header>
+<main>
+<footer>
+# Inside Main Tag
+-> Section Tag // For a section on your page
+<section>
+-> Article Tag // For an article on your page
+<article>
+-> Aside Tag // For content aside main content(ads)
+<aside>
+# Revisiting Anchor Tag
+-> <a href="https://google.com" target="_main"> Google </a>
+-> <a href="https://google.com"> <img src="link"> </a>
+# Revisiting Image Tag
+-> <img src="link" height=50px >
+-> <img src="link" width=50px >
+# Div Tag
+-> Div is a container used for other HTML elements.
+-> Block Element (takes full width).
+# List : Div Tags
+<address>   <article>   <aside> <blockquote>    <canvas>
+<dd>    <div>   <dl>    <dt>    <fieldset>
+<figcaption>    <figure>    <footer>    <form>
+<h1>-<h6>   <header>    <hr>    <li>    <main>
+<nav>   <noscript>  <ol>    <p> <pre>
+<section>   <table> <tfoot> <ul>    <video>
+# Span Tag
+-> Span is also a container used for other HTML elements.
+-> Inline Element (takes width as per size).
+# List : Span Tags
+<a> <abbr> <acronym> <b> <bdo> <bt> <button> <cite>
+<code> <dfn> <em> <i> <img> <input> <kbd> <label> <map>
+<object> <tt> <var> <output> <q> <samp> <script> <select>
+<small> <span> <strong> <sub> <sup> <textarea> <time>
+# List in HTML 
+-> Lists are used to represent real life list data.
+unordered               ordered
+<ul>                    <ol>
+<li>Apple</li>          <li>Apple</li>
+<li>Mango</li>          <li>Mango</li>
+</ul>                   </ol>
+# Tables in HTML
+-> Tables are used to represent real life table data.
+<tr> // used to display table row
+<td> // used to display table data
+<th> // used to display table header
+# Tables in HTML
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+    </tr>
+    <tr>
+        <td>Khasim</td>
+        <td>060</td>
+    </tr>
+</table>
+# Caption in Tables.
+<caption> Student Data </caption>
+# thead & tbody in Tables
+<thead> // to wrap table head
+<tbody> // to wrap table body
+# colspan attribute
+colspan="n"
+-> used to create cells which spans over multiple columns.
+# Form in HTML
+-> Forms are used to collect data from the user.
+-> Eg- sign up/login/help requests/contact me.
+<form>
+    form content.
+</form>
+# Action in Form.
+-> Action attribute is used to define what action needs to be performed when a form is submitted.
+<form action="/action.php" >
+# Form Element : Input
+<input type="text" placeholder="Enter Name">
+# Label
+<label for="id1">
+    <input type="radio" value="class X" name="class" id="id1">
+</label>
+<label for="id2">
+    <input type="radio" value="class X" name="class" id="id2">
+</label>
+# Class & Id
+<div id="id1" class="group1">
+
+</div>
+<div id="id2"> class="group1">
+
+</div>
+# Checkbox
+<label for="id1">
+    <input type="checkbox" value="class X" name="class" id="id1">
+</label>
+<label for="id2">
+    <input type="checkbox" value="class X" name="class" id="id2">
+</label>
+# Textarea
+<textarea name="feedback" id="feedback" placeholder="Please add Feedback">
+</textarea>
+# Select
+<select name="city" id="city"> 
+    <option value="Delhi"> Delhi </option>
+    <option value="Mumbai"> Delhi </option>
+    <option value="Banglore"> Delhi </option>
+</select>
+# iframe Tag
+-> website inside website
+<iframe src="link"> Link </option>
+# Video Tag
+-> <video src="myVid.mp4"> My Video </video>
+Attributes :
+- controls
+- height
+- width
+- loop
+- autoplay
